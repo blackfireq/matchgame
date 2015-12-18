@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Match Game!</title>
+	</head>
+	<link rel="stylesheet" href="matchgame.css">
+	<body>
+		<div class="scoreboard">
+			<ul>
+				<li><h2>Game:<span id="gameNumber">2</span></h2></li>
+				<li><h2>Matches: <span id="currentMatched">3</span>/<span id="totalMatches">9</h2></li>
+				<li><h2>Score: <span id="gameScore">460</h2></li>
+			</ul>
+		</div>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="matchgame.js"></script>
+		<script>
+			$(document).ready(function() {
+				// scoreboardSetup();
+				 gameboardSetup();
+				// insertImage();
+			});
+
+			$('.card').click(function() {
+				var result = $(this).css("width");
+				console.log(result);
+
+			});
+		</script>
+	</body>
+</html>

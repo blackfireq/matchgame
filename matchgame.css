@@ -1,0 +1,105 @@
+body{
+	width: 800px;
+	height: 600px;
+	background: grey;
+	margin: 0 auto;
+	padding: 5px;
+}
+.scoreboard{
+	position: relative;
+	width: 100%;
+	height:80px;
+	background: white;
+}
+.scoreboard ul li{
+	display: inline;
+	list-style-type: none;
+}
+ul{
+	padding-top: 20px;
+	margin: 0px 0px;
+}
+
+li{
+	margin-left: 90px;
+}
+h2{
+	margin: 0;
+	display: inline-block;
+}
+.gameboard{
+	background: grey;
+	width: 100%;
+	height: 580px;
+}
+.card-holder{
+	float: left;
+	height: 180px;
+	width: 120px;
+	margin: 5px;
+		
+}
+.card{
+	position: relative;
+	background: white;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #5F5959;
+}
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+/* images for the game cards*/
+.rectangle1,.square1,.circle1,.ghost1,.pillar1,
+.rectangle2,.square2,.circle2,.ghost2,.pillar2,
+.rectangle3,.square3,.circle3,.ghost3,.pillar3,
+.rectangle4,.square4,.circle4,.ghost4,.pillar4{
+	display: block;
+	position: absolute;
+	top: 25px;
+	left:25px;
+}
+.rectangle1,.square1,.circle1,.ghost1,.pillar1{
+	background: #FF4545;
+}
+.rectangle2,.square2,.circle2,.ghost2,.pillar2{
+	background: #3399FF;
+}
+.rectangle3,.square3,.circle3,.ghost3,.pillar3{
+	background: #66FF66;
+}
+.rectangle4,.square4,.circle4,.ghost4,.pillar4{
+	background: #FFC68D;
+}
+.rectangle1,.rectangle2,.rectangle3,.rectangle4{
+	width: 70px;
+	height: 25px;
+	margin-top: 25px;
+}	
+.square1,.square2,.square3,.square4{
+	margin: 5px 0;
+	height: 70px;
+	width: 70px;	
+}
+.circle1,.circle2,.circle3,.circle4{
+	margin: 5px 0;
+	height: 70px;
+	width: 70px;
+	border-radius:150px; 
+}
+.pillar1,.pillar2,.pillar3,.pillar4{
+	display: inline-block;
+	height: 70px;
+	width: 25px;
+	margin-left: 23px;
+}
+.ghost1,.ghost2,.ghost3,.ghost4{
+	height: 70px;
+	width: 70px;
+	border-radius:40px 40px 5px 5px;
+	margin: 5px 0;
+}

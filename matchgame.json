@@ -1,0 +1,7 @@
+var shape = 
+{
+	"circle" : '.circle-image', 
+	"square" : '.square-image',
+	"gemini" : '.gemini-image',
+	"ghost"  : '.ghost-image'
+}
